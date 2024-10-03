@@ -5,6 +5,7 @@ def is_near_target(x, target = 0.0, precision = .001):
     """
     if (x > target-precision and x < target+precision):
         return True
+    
     else:
         return False
 
